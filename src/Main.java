@@ -41,7 +41,7 @@ public class Main {
         System.out.println("Минимальная сумма затрат за день составила " + minArr + " рублей");
 
         //Задание 3
-        float arrAverage = sum / arr.length;
+        double arrAverage = (double) sum / arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + arrAverage);
 
         return arr;
